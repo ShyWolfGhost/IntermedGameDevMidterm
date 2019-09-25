@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cdfc9f-b0eb-4ee3-aaac-f7ec01872fe0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerControls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,17 +15,18 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerControls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1033">
-              <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+            <state relative-caret-position="832">
+              <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
               <folding>
-                <marker date="1569427007095" expanded="true" signature="6:92" ph="..." />
-                <marker date="1569427007095" expanded="true" signature="137:2044" ph="{...}" />
-                <marker date="1569427007095" expanded="true" signature="507:580" ph="{...}" />
-                <marker date="1569427007095" expanded="true" signature="638:872" ph="{...}" />
-                <marker date="1569427007095" expanded="true" signature="896:991" ph="{...}" />
-                <marker date="1569427007095" expanded="true" signature="1001:1742" ph="/* void OnCollisionEnter(Collision other) ... */" />
-                <marker date="1569427007095" expanded="true" signature="1747:1901" ph="/* public void OnNPC() ... */" />
-                <marker date="1569427007095" expanded="true" signature="1909:2042" ph="/* public void CassetteTurnsTrue () ... */" />
+                <marker date="1569428472888" expanded="true" signature="6:92" ph="..." />
+                <marker date="1569428472888" expanded="true" signature="137:2413" ph="{...}" />
+                <marker date="1569428472888" expanded="true" signature="289:651" ph="/* public GameObject button1; ... */" />
+                <marker date="1569428472888" expanded="true" signature="668:741" ph="{...}" />
+                <marker date="1569428472888" expanded="true" signature="799:1034" ph="{...}" />
+                <marker date="1569428472888" expanded="true" signature="1058:1153" ph="{...}" />
+                <marker date="1569428472888" expanded="true" signature="1163:2102" ph="/* void OnCollisionEnter(Collision other) ... */" />
+                <marker date="1569428472888" expanded="true" signature="2107:2261" ph="/* public void OnNPC() ... */" />
+                <marker date="1569428472888" expanded="true" signature="2269:2411" ph="/* public void CassetteTurnsTrue () ... */" />
               </folding>
             </state>
           </provider>
@@ -48,7 +47,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="15" />
     <option name="y" value="24" />
     <option name="width" value="1440" />
@@ -118,12 +117,12 @@
       <option name="presentableId" value="Default" />
       <updated>1569423474261</updated>
       <workItem from="1569423477071" duration="1790000" />
-      <workItem from="1569426738156" duration="271000" />
+      <workItem from="1569426738156" duration="1025000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2061000" />
+    <option name="totallyTimeSpent" value="2815000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -183,17 +182,18 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/PlayerControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1033">
-          <caret line="75" column="8" lean-forward="true" selection-start-line="75" selection-start-column="8" selection-end-line="75" selection-end-column="8" />
+        <state relative-caret-position="832">
+          <caret line="52" column="58" lean-forward="true" selection-start-line="52" selection-start-column="58" selection-end-line="52" selection-end-column="58" />
           <folding>
-            <marker date="1569427007095" expanded="true" signature="6:92" ph="..." />
-            <marker date="1569427007095" expanded="true" signature="137:2044" ph="{...}" />
-            <marker date="1569427007095" expanded="true" signature="507:580" ph="{...}" />
-            <marker date="1569427007095" expanded="true" signature="638:872" ph="{...}" />
-            <marker date="1569427007095" expanded="true" signature="896:991" ph="{...}" />
-            <marker date="1569427007095" expanded="true" signature="1001:1742" ph="/* void OnCollisionEnter(Collision other) ... */" />
-            <marker date="1569427007095" expanded="true" signature="1747:1901" ph="/* public void OnNPC() ... */" />
-            <marker date="1569427007095" expanded="true" signature="1909:2042" ph="/* public void CassetteTurnsTrue () ... */" />
+            <marker date="1569428472888" expanded="true" signature="6:92" ph="..." />
+            <marker date="1569428472888" expanded="true" signature="137:2413" ph="{...}" />
+            <marker date="1569428472888" expanded="true" signature="289:651" ph="/* public GameObject button1; ... */" />
+            <marker date="1569428472888" expanded="true" signature="668:741" ph="{...}" />
+            <marker date="1569428472888" expanded="true" signature="799:1034" ph="{...}" />
+            <marker date="1569428472888" expanded="true" signature="1058:1153" ph="{...}" />
+            <marker date="1569428472888" expanded="true" signature="1163:2102" ph="/* void OnCollisionEnter(Collision other) ... */" />
+            <marker date="1569428472888" expanded="true" signature="2107:2261" ph="/* public void OnNPC() ... */" />
+            <marker date="1569428472888" expanded="true" signature="2269:2411" ph="/* public void CassetteTurnsTrue () ... */" />
           </folding>
         </state>
       </provider>

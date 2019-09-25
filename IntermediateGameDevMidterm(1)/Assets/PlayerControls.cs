@@ -9,11 +9,17 @@ public class PlayerControls : MonoBehaviour
     public float moveSpeed = 3f;
     public Vector3 inputVector;
     public Rigidbody thisRigidbody;
+    
+    
    
 
     //public GameObject button1;
     //public GameObject button2;
     //public GameObject button3;
+    //public AudioSource Source;
+    //public AudioClip button1Clip;
+    //public AudioClip button2Clip;
+    //public AudioClip button3Clip;
 
     //public GameObject NPC;
     //public bool hasCassette = false;
@@ -33,6 +39,7 @@ public class PlayerControls : MonoBehaviour
         inputVector = transform.forward * vertical;
         inputVector += transform.right * horizontal;
         
+
     }
 
     void FixedUpdate()
@@ -42,22 +49,28 @@ public class PlayerControls : MonoBehaviour
     
     /*void OnCollisionEnter(Collision other)
     {
+    
+    //Make cassette Sprite enabled,Change color Per Button
+    
         //If Player Collides into button1 and hasn't collided into a button yet
         //Dark Blue Button
         //Play Friends by twin Xl
+        //Source.PlayOneShot(button1Clip);
         //CassetteTurnsTrue();
         //Get a cassette of button's color
         
         //If Player Collides into button2and hasn't collided into a button yet
         //Orange Button
         //Play BleedMagic by iDKHOW
+        //Source.PlayOneShot(button2Clip);
         //CassetteTurnsTrue();
         //Get a cassette of button's color
         
        
         //If Player Collides into button3
         //Color Button
-        //Play 
+        //Play
+        //Source.PlayOneShot(button3Clip); 
         //CassetteTurnsTrue();
         //Get a cassette of button's color
 
@@ -81,6 +94,7 @@ public class PlayerControls : MonoBehaviour
     
         //Disable All Buttons
         //hasCassette == true;
+        
         
         
     }*/
