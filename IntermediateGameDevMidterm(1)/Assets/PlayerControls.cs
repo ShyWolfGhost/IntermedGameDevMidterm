@@ -13,7 +13,7 @@ public class PlayerControls : MonoBehaviour
     
    
 
-    //public GameObject button1;
+    public GameObject button1;
     //public GameObject button2;
     //public GameObject button3;
     //public AudioSource Source;
@@ -47,12 +47,16 @@ public class PlayerControls : MonoBehaviour
         thisRigidbody.velocity = inputVector * moveSpeed + Physics.gravity * .69f;
     }
     
-    /*void OnCollisionEnter(Collision other)
+    void OnCollisionEnter(Collision other)
     {
     
     //Make cassette Sprite enabled,Change color Per Button
-    
-        //If Player Collides into button1 and hasn't collided into a button yet
+    if (button1)
+    {
+        Debug.Log("BUTTON 1");
+    }
+        
+    //If Player Collides into button1 and hasn't collided into a button yet
         //Dark Blue Button
         //Play Friends by twin Xl
         //Source.PlayOneShot(button1Clip);
@@ -77,7 +81,7 @@ public class PlayerControls : MonoBehaviour
 
         //If Player Collides into Npc
         //Trigger On NPC For Cassette
-    }*/
+    }
 
    /* public void OnNPC()
     {
