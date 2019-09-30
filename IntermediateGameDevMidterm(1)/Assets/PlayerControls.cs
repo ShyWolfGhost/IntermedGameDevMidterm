@@ -73,7 +73,7 @@ public class PlayerControls : MonoBehaviour
        
         //If Player Collides into button3
         //Color Button
-        //Play
+        //Play (one night by the summerset Or Emily by catfish) (idk the color)
         //Source.PlayOneShot(button3Clip); 
         //CassetteTurnsTrue();
         //Get a cassette of button's color
