@@ -51,9 +51,11 @@ public class PlayerControls : MonoBehaviour
     {
     
     //Make cassette Sprite enabled,Change color Per Button
+    //Text, Think of when you want them to appear
     if (button1)
     {
         Debug.Log("BUTTON 1");
+        
     }
         
     //If Player Collides into button1 and hasn't collided into a button yet
@@ -62,6 +64,7 @@ public class PlayerControls : MonoBehaviour
         //Source.PlayOneShot(button1Clip);
         //CassetteTurnsTrue();
         //Get a cassette of button's color
+        //"Acheivement Unlocked: Friends By TwinXL, Go share it"
         
         //If Player Collides into button2and hasn't collided into a button yet
         //Orange Button
@@ -69,6 +72,7 @@ public class PlayerControls : MonoBehaviour
         //Source.PlayOneShot(button2Clip);
         //CassetteTurnsTrue();
         //Get a cassette of button's color
+        //"Acheivement Unlocked: Bleed Magic By i DONT KNOW HOW BUT THEY FOUND ME, Go share it"
         
        
         //If Player Collides into button3
@@ -77,6 +81,7 @@ public class PlayerControls : MonoBehaviour
         //Source.PlayOneShot(button3Clip); 
         //CassetteTurnsTrue();
         //Get a cassette of button's color
+        //"Acheivement Unlocked: ______ By ______, Go share it"
 
 
         //If Player Collides into Npc
@@ -88,6 +93,7 @@ public class PlayerControls : MonoBehaviour
         if(hascassette == true)
         {
         //Do I want Cassette Specific Dialouge?
+        //"Meh"
         }
         
         

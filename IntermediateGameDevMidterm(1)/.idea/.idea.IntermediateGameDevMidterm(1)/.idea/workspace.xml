@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cdfc9f-b0eb-4ee3-aaac-f7ec01872fe0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerControls.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,25 +14,43 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerControls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+            <state relative-caret-position="462">
+              <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
               <folding>
-                <marker date="1569814007463" expanded="true" signature="6:92" ph="..." />
-                <marker date="1569814007463" expanded="true" signature="137:2516" ph="{...}" />
-                <marker date="1569814007463" expanded="true" signature="320:649" ph="/* public GameObject button2; ... */" />
-                <marker date="1569814007463" expanded="true" signature="666:739" ph="{...}" />
-                <marker date="1569814007463" expanded="true" signature="797:1032" ph="{...}" />
-                <marker date="1569814007463" expanded="true" signature="1056:1151" ph="{...}" />
-                <marker date="1569814007463" expanded="true" signature="1199:2205" ph="{...}" />
-                <marker date="1569814007463" expanded="true" signature="1286:1329" ph="{...}" />
-                <marker date="1569814007463" expanded="true" signature="1343:1857" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
-                <marker date="1569814007463" expanded="true" signature="1883:2121" ph="/* If Player Collides into button3 ... */" />
-                <marker date="1569814007463" expanded="true" signature="2132:2199" ph="/* If Player Collides into Npc ... */" />
-                <marker date="1569814007463" expanded="true" signature="2210:2364" ph="/* public void OnNPC() ... */" />
-                <marker date="1569814007463" expanded="true" signature="2372:2514" ph="/* public void CassetteTurnsTrue () ... */" />
+                <marker date="1569855168232" expanded="true" signature="6:92" ph="..." />
+                <marker date="1569855168232" expanded="true" signature="137:2823" ph="{...}" />
+                <marker date="1569855168232" expanded="true" signature="320:649" ph="/* public GameObject button2; ... */" />
+                <marker date="1569855168232" expanded="true" signature="666:739" ph="{...}" />
+                <marker date="1569855168232" expanded="true" signature="797:1032" ph="{...}" />
+                <marker date="1569855168232" expanded="true" signature="1056:1151" ph="{...}" />
+                <marker date="1569855168232" expanded="true" signature="1199:2496" ph="{...}" />
+                <marker date="1569855168232" expanded="true" signature="1215:1319" ph="/* Make cassette Sprite enabled,Change color Per Button ... */" />
+                <marker date="1569855168232" expanded="true" signature="1336:1379" ph="{...}" />
+                <marker date="1569855168232" expanded="true" signature="1393:2068" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
+                <marker date="1569855168232" expanded="true" signature="2094:2412" ph="/* If Player Collides into button3 ... */" />
+                <marker date="1569855168232" expanded="true" signature="2423:2490" ph="/* If Player Collides into Npc ... */" />
+                <marker date="1569855168232" expanded="true" signature="2501:2671" ph="/* public void OnNPC() ... */" />
+                <marker date="1569855168232" expanded="true" signature="2679:2821" ph="/* public void CassetteTurnsTrue () ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/RaycastGrounded.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="496">
+              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+              <folding>
+                <marker date="1569857739358" expanded="true" signature="6:78" ph="..." />
+                <marker date="1569857739358" expanded="true" signature="124:664" ph="{...}" />
+                <marker date="1569857739358" expanded="true" signature="230:251" ph="{...}" />
+                <marker date="1569857739358" expanded="true" signature="309:662" ph="{...}" />
+                <marker date="1569857739358" expanded="true" signature="530:586" ph="{...}" />
+                <marker date="1569857739358" expanded="true" signature="599:656" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -43,17 +63,19 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/PlayerControls.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/RaycastGrounded.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/PlayerControls.cs" />
+        <option value="$PROJECT_DIR$/Assets/RaycastGrounded.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="198" />
-    <option name="y" value="23" />
+    <option name="x" value="48" />
+    <option name="y" value="51" />
     <option name="width" value="1145" />
     <option name="height" value="801" />
   </component>
@@ -121,12 +143,12 @@
       <option name="presentableId" value="Default" />
       <updated>1569423474261</updated>
       <workItem from="1569423477071" duration="1790000" />
-      <workItem from="1569426738156" duration="2078000" />
+      <workItem from="1569426738156" duration="3630000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3868000" />
+    <option name="totallyTimeSpent" value="5420000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -138,7 +160,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="198" y="23" width="1145" height="801" extended-state="0" />
+    <frame x="48" y="51" width="1145" height="801" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32094288" />
@@ -186,22 +208,38 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/PlayerControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="75" column="51" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+        <state relative-caret-position="462">
+          <caret line="98" column="7" selection-start-line="98" selection-start-column="7" selection-end-line="98" selection-end-column="7" />
           <folding>
-            <marker date="1569814007463" expanded="true" signature="6:92" ph="..." />
-            <marker date="1569814007463" expanded="true" signature="137:2516" ph="{...}" />
-            <marker date="1569814007463" expanded="true" signature="320:649" ph="/* public GameObject button2; ... */" />
-            <marker date="1569814007463" expanded="true" signature="666:739" ph="{...}" />
-            <marker date="1569814007463" expanded="true" signature="797:1032" ph="{...}" />
-            <marker date="1569814007463" expanded="true" signature="1056:1151" ph="{...}" />
-            <marker date="1569814007463" expanded="true" signature="1199:2205" ph="{...}" />
-            <marker date="1569814007463" expanded="true" signature="1286:1329" ph="{...}" />
-            <marker date="1569814007463" expanded="true" signature="1343:1857" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
-            <marker date="1569814007463" expanded="true" signature="1883:2121" ph="/* If Player Collides into button3 ... */" />
-            <marker date="1569814007463" expanded="true" signature="2132:2199" ph="/* If Player Collides into Npc ... */" />
-            <marker date="1569814007463" expanded="true" signature="2210:2364" ph="/* public void OnNPC() ... */" />
-            <marker date="1569814007463" expanded="true" signature="2372:2514" ph="/* public void CassetteTurnsTrue () ... */" />
+            <marker date="1569855168232" expanded="true" signature="6:92" ph="..." />
+            <marker date="1569855168232" expanded="true" signature="137:2823" ph="{...}" />
+            <marker date="1569855168232" expanded="true" signature="320:649" ph="/* public GameObject button2; ... */" />
+            <marker date="1569855168232" expanded="true" signature="666:739" ph="{...}" />
+            <marker date="1569855168232" expanded="true" signature="797:1032" ph="{...}" />
+            <marker date="1569855168232" expanded="true" signature="1056:1151" ph="{...}" />
+            <marker date="1569855168232" expanded="true" signature="1199:2496" ph="{...}" />
+            <marker date="1569855168232" expanded="true" signature="1215:1319" ph="/* Make cassette Sprite enabled,Change color Per Button ... */" />
+            <marker date="1569855168232" expanded="true" signature="1336:1379" ph="{...}" />
+            <marker date="1569855168232" expanded="true" signature="1393:2068" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
+            <marker date="1569855168232" expanded="true" signature="2094:2412" ph="/* If Player Collides into button3 ... */" />
+            <marker date="1569855168232" expanded="true" signature="2423:2490" ph="/* If Player Collides into Npc ... */" />
+            <marker date="1569855168232" expanded="true" signature="2501:2671" ph="/* public void OnNPC() ... */" />
+            <marker date="1569855168232" expanded="true" signature="2679:2821" ph="/* public void CassetteTurnsTrue () ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/RaycastGrounded.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="496">
+          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+          <folding>
+            <marker date="1569857739358" expanded="true" signature="6:78" ph="..." />
+            <marker date="1569857739358" expanded="true" signature="124:664" ph="{...}" />
+            <marker date="1569857739358" expanded="true" signature="230:251" ph="{...}" />
+            <marker date="1569857739358" expanded="true" signature="309:662" ph="{...}" />
+            <marker date="1569857739358" expanded="true" signature="530:586" ph="{...}" />
+            <marker date="1569857739358" expanded="true" signature="599:656" ph="{...}" />
           </folding>
         </state>
       </provider>
