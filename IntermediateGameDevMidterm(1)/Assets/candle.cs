@@ -2,9 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class RaycastGrounded : MonoBehaviour
+public class candle : MonoBehaviour
 {
-    private float myRayDist=1.7f;
+    // Start is called before the first frame update
+    private float myRayDist = 1.7f;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -17,8 +19,8 @@ public class RaycastGrounded : MonoBehaviour
         Debug.Log("ffffff");
         //declareRay
         Ray myRay = new Ray(transform.position, Vector3.down);
-        
-        Debug.DrawRay(myRay.origin,myRay.direction*myRayDist,Color.cyan);
+
+        Debug.DrawRay(myRay.origin, myRay.direction * myRayDist, Color.cyan);
 
         if (Physics.Raycast(myRay, myRayDist))
         {
@@ -30,4 +32,3 @@ public class RaycastGrounded : MonoBehaviour
         }
     }
 }
-//fuck

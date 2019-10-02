@@ -5,8 +5,11 @@
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="candle.cs" t="Include" />
         <e p="PlayerControls.cs" t="Include" />
         <e p="RaycastGrounded.cs" t="Include" />
+        <e p="RaycastMouse1.cs" t="Include" />
+        <e p="RaycastTest.cs" t="Include" />
         <e p="StuffFromSampleSCENE" t="Include">
           <e p="Scripts" t="Include">
             <e p="SimpleCameraController.cs" t="Include" />
