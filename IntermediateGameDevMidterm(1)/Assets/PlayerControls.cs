@@ -14,20 +14,25 @@ public class PlayerControls : MonoBehaviour
    
 
     public GameObject button1;
-    //public GameObject button2;
-    //public GameObject button3;
+    public GameObject button2;
+    public GameObject button3;
     //public AudioSource Source;
     //public AudioClip button1Clip;
     //public AudioClip button2Clip;
     //public AudioClip button3Clip;
 
     //public GameObject NPC;
-    //public bool hasCassette = false;
+    public bool hasCassette = false;
+
+    //public TextMesh Mesh;
     
     // Start is called before the first frame update
     void Start()
     {
         thisRigidbody = GetComponent<Rigidbody>(); 
+        button1.SetActive(true);
+        button2.SetActive(true);
+        button3.SetActive(true);
         
     }
 
@@ -46,15 +51,30 @@ public class PlayerControls : MonoBehaviour
     {
         thisRigidbody.velocity = inputVector * moveSpeed + Physics.gravity * .69f;
     }
-    
-    void OnCollisionEnter(Collision other)
+
+  
+
+    void OnTriggerEnter(Collider other)
     {
     
     //Make cassette Sprite enabled,Change color Per Button
     //Text, Think of when you want them to appear
-    if (button1)
+    if (other.name=="button1")
     {
-        Debug.Log("BUTTON 1");
+        Debug.Log("BUTTON 1 FRIENDS");
+        CassetteTurnsTrue();
+        
+    }
+    if (other.name=="button2")
+    {
+        Debug.Log("BUTTON 2 BLEED MAGIC");
+        CassetteTurnsTrue();
+        
+    }
+    if (other.name=="button3")
+    {
+        Debug.Log("BUTTON 3 ????");
+        CassetteTurnsTrue();
         
     }
         
@@ -99,13 +119,17 @@ public class PlayerControls : MonoBehaviour
         
     }*/
    
-   /* public void CassetteTurnsTrue ()
+    public void CassetteTurnsTrue ()
     {
     
         //Disable All Buttons
-        //hasCassette == true;
+        hasCassette = true;
+        button1.SetActive(false);
+        button2.SetActive(false);
+        button3.SetActive(false);
+        Debug.Log("all Gone");
         
         
         
-    }*/
+    }
 }
