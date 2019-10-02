@@ -26,6 +26,14 @@ public class PlayerControls : MonoBehaviour
 
     //public GameObject NPC;
     public bool hasCassette = false;
+    public GameObject cassette1;
+    public GameObject cassette2;
+    public GameObject cassette3;
+    
+    //DOES THE NPC NEED A PHYSICAL CASSETTE?????
+    //public GameObject NPCcassette1;
+    //public GameObject NPCcassette2;
+    //public GameObject NPCcassette3;
 
     public Text Meshy;
     
@@ -36,6 +44,12 @@ public class PlayerControls : MonoBehaviour
         button1.SetActive(true);
         button2.SetActive(true);
         button3.SetActive(true);
+        cassette1.SetActive(false);
+        cassette2.SetActive(false);
+        cassette3.SetActive(false);
+        //NPCcassette1.SetActive(false);
+        //NPCcassette2.SetActive(false);
+        //NPCcassette3.SetActive(false);
         Meshy.text = " ";
 
 
@@ -67,6 +81,7 @@ public class PlayerControls : MonoBehaviour
     if (other.name=="button1")
     {
         Debug.Log("BUTTON 1 FRIENDS");
+        cassette1.SetActive(true);
         Meshy.text = "Achievement Unlocked: Learned Friends by Twin XL. Go Share it with the masses!!!";
         CassetteTurnsTrue();
         
@@ -75,12 +90,14 @@ public class PlayerControls : MonoBehaviour
     {
         Debug.Log("BUTTON 2 BLEED MAGIC");
         Meshy.text = "Achievement Unlocked: Learned Bleed Magic by I DONT KNOW HOW BUT THEY FOUND ME. Go Share it with the masses!!!";
+        cassette2.SetActive(true);
         CassetteTurnsTrue();
         
     }
     if (other.name=="button3")
     {
         Debug.Log("BUTTON 3 ????");
+        cassette3.SetActive(true);
         Meshy.text = "Achievement Unlocked: Learned Button 3 Still Has no song!!!!!";
 
         CassetteTurnsTrue();
@@ -129,6 +146,9 @@ public class PlayerControls : MonoBehaviour
         {
             Source.PlayOneShot(OnNPCaudio);
             Meshy.text = "Achievement Unlocked: Learned NPC1 Still Has no Response!!!!!";
+            cassette1.SetActive(false);
+            cassette2.SetActive(false);
+            cassette3.SetActive(false);
         //PLAY FINAL FANTASY VICTORY HORNS YOOOOOO
         //Do I want Cassette Specific Dialouge?
         //"Meh"
