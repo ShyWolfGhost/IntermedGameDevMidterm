@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Net.Mime;
 using UnityEngine;
 
 public class PlayerControls : MonoBehaviour
@@ -24,7 +25,7 @@ public class PlayerControls : MonoBehaviour
     //public GameObject NPC;
     public bool hasCassette = false;
 
-    //public TextMesh Mesh;
+    public GameObject Meshy;
     
     // Start is called before the first frame update
     void Start()
@@ -32,8 +33,9 @@ public class PlayerControls : MonoBehaviour
         thisRigidbody = GetComponent<Rigidbody>(); 
         button1.SetActive(true);
         button2.SetActive(true);
-        button3.SetActive(true);
+        button3.SetActive(true); 
         
+
     }
 
     // Update is called once per frame
@@ -112,6 +114,7 @@ public class PlayerControls : MonoBehaviour
     {
         if(hascassette == true)
         {
+        //PLAY FINAL FANTASY VICTORY HORNS YOOOOOO
         //Do I want Cassette Specific Dialouge?
         //"Meh"
         }
