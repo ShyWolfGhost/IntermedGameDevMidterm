@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mime;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerControls : MonoBehaviour
 {
@@ -17,15 +18,16 @@ public class PlayerControls : MonoBehaviour
     public GameObject button1;
     public GameObject button2;
     public GameObject button3;
-    //public AudioSource Source;
+    public AudioSource Source;
     //public AudioClip button1Clip;
     //public AudioClip button2Clip;
     //public AudioClip button3Clip;
+    public AudioClip OnNPCaudio;
 
     //public GameObject NPC;
     public bool hasCassette = false;
 
-    public GameObject Meshy;
+    public Text Meshy;
     
     // Start is called before the first frame update
     void Start()
@@ -33,8 +35,9 @@ public class PlayerControls : MonoBehaviour
         thisRigidbody = GetComponent<Rigidbody>(); 
         button1.SetActive(true);
         button2.SetActive(true);
-        button3.SetActive(true); 
-        
+        button3.SetActive(true);
+        Meshy.text = " ";
+
 
     }
 
@@ -64,20 +67,30 @@ public class PlayerControls : MonoBehaviour
     if (other.name=="button1")
     {
         Debug.Log("BUTTON 1 FRIENDS");
+        Meshy.text = "Achievement Unlocked: Learned Friends by Twin XL. Go Share it with the masses!!!";
         CassetteTurnsTrue();
         
     }
     if (other.name=="button2")
     {
         Debug.Log("BUTTON 2 BLEED MAGIC");
+        Meshy.text = "Achievement Unlocked: Learned Bleed Magic by I DONT KNOW HOW BUT THEY FOUND ME. Go Share it with the masses!!!";
         CassetteTurnsTrue();
         
     }
     if (other.name=="button3")
     {
         Debug.Log("BUTTON 3 ????");
+        Meshy.text = "Achievement Unlocked: Learned Button 3 Still Has no song!!!!!";
+
         CassetteTurnsTrue();
         
+    }
+    
+    if (other.name=="Sphere")
+    {
+        OnNPC();
+
     }
         
     //If Player Collides into button1 and hasn't collided into a button yet
@@ -110,17 +123,26 @@ public class PlayerControls : MonoBehaviour
         //Trigger On NPC For Cassette
     }
 
-   /* public void OnNPC()
+    public void OnNPC()
     {
-        if(hascassette == true)
+        if(hasCassette == true)
         {
+            Source.PlayOneShot(OnNPCaudio);
+            Meshy.text = "Achievement Unlocked: Learned NPC1 Still Has no Response!!!!!";
         //PLAY FINAL FANTASY VICTORY HORNS YOOOOOO
         //Do I want Cassette Specific Dialouge?
         //"Meh"
         }
         
+        if(hasCassette == false)
+        {
+            Meshy.text = "... ... ... ... ... ... ... ...";
+            //PLAY FINAL FANTASY VICTORY HORNS YOOOOOO
+            //Do I want Cassette Specific Dialouge?
+            //"Meh"
+        }
         
-    }*/
+    }
    
     public void CassetteTurnsTrue ()
     {
