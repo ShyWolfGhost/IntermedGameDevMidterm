@@ -19,9 +19,9 @@ public class PlayerControls : MonoBehaviour
     public GameObject button2;
     public GameObject button3;
     public AudioSource Source;
-    //public AudioClip button1Clip;
-    //public AudioClip button2Clip;
-    //public AudioClip button3Clip;
+    public AudioClip button1Clip;
+    public AudioClip button2Clip;
+    public AudioClip button3Clip;
     public AudioClip OnNPCaudio;
 
     //public GameObject NPC;
@@ -80,6 +80,7 @@ public class PlayerControls : MonoBehaviour
     //Text, Think of when you want them to appear
     if (other.name=="button1")
     {
+        Source.PlayOneShot(button1Clip);
         Debug.Log("BUTTON 1 FRIENDS");
         cassette1.SetActive(true);
         Meshy.text = "Achievement Unlocked: Learned Friends by Twin XL. Go Share it with the masses!!!";
@@ -88,6 +89,7 @@ public class PlayerControls : MonoBehaviour
     }
     if (other.name=="button2")
     {
+        Source.PlayOneShot(button2Clip);
         Debug.Log("BUTTON 2 BLEED MAGIC");
         Meshy.text = "Achievement Unlocked: Learned Bleed Magic by I DONT KNOW HOW BUT THEY FOUND ME. Go Share it with the masses!!!";
         cassette2.SetActive(true);
@@ -96,6 +98,7 @@ public class PlayerControls : MonoBehaviour
     }
     if (other.name=="button3")
     {
+        Source.PlayOneShot(button3Clip);
         Debug.Log("BUTTON 3 ????");
         cassette3.SetActive(true);
         Meshy.text = "Achievement Unlocked: Learned Button 3 Still Has no song!!!!!";
