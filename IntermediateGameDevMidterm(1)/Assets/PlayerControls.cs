@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.Net.Mime;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class PlayerControls : MonoBehaviour
@@ -26,6 +27,10 @@ public class PlayerControls : MonoBehaviour
 
     //public GameObject NPC;
     public bool hasCassette = false;
+    public int Trials = 0;
+    public bool XLcollide = false;
+    public bool iDKcollide = false;
+    public bool Questcollide = false;
     public GameObject cassette1;
     public GameObject cassette2;
     public GameObject cassette3;
@@ -50,7 +55,7 @@ public class PlayerControls : MonoBehaviour
         //NPCcassette1.SetActive(false);
         //NPCcassette2.SetActive(false);
         //NPCcassette3.SetActive(false);
-        Meshy.text = " ";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: WELCOME TO THE WORLD, STARS ARE JUST STARS AND THAT’S IT. GO ACQUIRE MORE KNOWLEDGE!!!";
 
 
     }
@@ -80,10 +85,13 @@ public class PlayerControls : MonoBehaviour
     //Text, Think of when you want them to appear
     if (other.name=="button1")
     {
+        
         Source.PlayOneShot(button1Clip);
         Debug.Log("BUTTON 1 FRIENDS");
+        XLcollide = true;
         cassette1.SetActive(true);
-        Meshy.text = "Achievement Unlocked: Learned Friends by Twin XL. Go Share it with the masses!!!";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED FRIENDS BY TWIN XL. GO SHARE IT WITH THE MASSES!!!";
+       
         CassetteTurnsTrue();
         
     }
@@ -91,8 +99,10 @@ public class PlayerControls : MonoBehaviour
     {
         Source.PlayOneShot(button2Clip);
         Debug.Log("BUTTON 2 BLEED MAGIC");
-        Meshy.text = "Achievement Unlocked: Learned Bleed Magic by I DONT KNOW HOW BUT THEY FOUND ME. Go Share it with the masses!!!";
+        iDKcollide = true;
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED BLEED MAGIC BY I DONT KNOW HOW BUT THEY FOUND ME. GO SHARE IT WITH THE MASSES!!!";
         cassette2.SetActive(true);
+        
         CassetteTurnsTrue();
         
     }
@@ -100,6 +110,7 @@ public class PlayerControls : MonoBehaviour
     {
         Source.PlayOneShot(button3Clip);
         Debug.Log("BUTTON 3 ????");
+        Questcollide = true;
         cassette3.SetActive(true);
         Meshy.text = "Achievement Unlocked: Learned Button 3 Still Has no song!!!!!";
 
@@ -145,18 +156,6 @@ public class PlayerControls : MonoBehaviour
 
     public void OnNPC()
     {
-        if(hasCassette == true)
-        {
-            Source.PlayOneShot(OnNPCaudio);
-            Meshy.text = "Achievement Unlocked: Learned NPC1 Still Has no Response!!!!!";
-            cassette1.SetActive(false);
-            cassette2.SetActive(false);
-            cassette3.SetActive(false);
-        //PLAY FINAL FANTASY VICTORY HORNS YOOOOOO
-        //Do I want Cassette Specific Dialouge?
-        //"Meh"
-        }
-        
         if(hasCassette == false)
         {
             Meshy.text = "... ... ... ... ... ... ... ...";
@@ -165,12 +164,49 @@ public class PlayerControls : MonoBehaviour
             //"Meh"
         }
         
+        if(hasCassette == true)
+        {
+            Source.PlayOneShot(OnNPCaudio);
+            cassette1.SetActive(false);
+            cassette2.SetActive(false);
+            cassette3.SetActive(false);
+            if (Trials == 1)
+            {
+                Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NPC1 IS BUSY!!! TRY AGAIN?";
+                ButtonCollideCheckXL();
+                ButtonCollideCheckiDK();
+                ButtonCollideCheckQuest();
+                hasCassette = false;
+            }
+            if (Trials == 2)
+            {
+                Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NPC1 HAS NO RESPONSE!!! TRY AGAIN?";
+                ButtonCollideCheckXL();
+                ButtonCollideCheckiDK();
+                ButtonCollideCheckQuest();
+                hasCassette = false;
+            }
+            if (Trials == 3)
+            {
+                //Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NO ONE CARES ABOUT YOUR INTERSTS!!!";
+               Debug.Log("ending goes here, press space to reset scene");
+               FuckYOU();
+            }
+            
+            //PLAY FINAL FANTASY VICTORY HORNS YOOOOOO
+            //Do I want Cassette Specific Dialouge?
+            //"Meh"
+        }
+        
+        
+        
     }
    
     public void CassetteTurnsTrue ()
     {
     
         //Disable All Buttons
+        Trials = Trials + 1 ;
         hasCassette = true;
         button1.SetActive(false);
         button2.SetActive(false);
@@ -180,4 +216,56 @@ public class PlayerControls : MonoBehaviour
         
         
     }
+
+    public void ButtonCollideCheckXL()
+    {
+        if (XLcollide == false)
+        {
+            button1.SetActive(true);
+        }
+
+        if (XLcollide == true)
+        {
+            button1.SetActive(false);
+        }
+        
+    }
+    public void ButtonCollideCheckiDK()
+    {
+        if (iDKcollide == false)
+        {
+            button2.SetActive(true);
+        }
+
+        if (iDKcollide == true)
+        {
+            button2.SetActive(false);
+        }
+        
+    }
+    public void ButtonCollideCheckQuest()
+    {
+        if (Questcollide == false)
+        {
+            button3.SetActive(true);
+        }
+
+        if (Questcollide == true)
+        {
+            button3.SetActive(false);
+        }
+        
+    }
+    public void FuckYOU()
+    {
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NO ONE CARES ABOUT YOUR INTERSTS!!! MAYBE THIS TIME WILL BE DIFFERENT??? PRESS SPACE TO FIND OUT!!!";
+        if (Input.GetKey(KeyCode.Space))
+        {
+            
+            SceneManager.LoadScene("SADNESSYEE");
+            Debug.Log("Mischeif Managed");
+        }
+    }
+    
+
 }

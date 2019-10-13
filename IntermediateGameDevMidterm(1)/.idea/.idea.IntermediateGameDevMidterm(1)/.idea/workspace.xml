@@ -2,8 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="06cdfc9f-b0eb-4ee3-aaac-f7ec01872fe0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/AcheievementUnlocked_AllText.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AcheievementUnlocked_AllText.rtf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Button1Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Button1Color.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Button2Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Button2Color.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Materials/Button3Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Button3Color.mat" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerControls.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,32 +22,45 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/PlayerControls.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="337">
-              <caret line="165" column="3" lean-forward="true" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="3" />
+            <state relative-caret-position="261">
+              <caret line="260" column="151" selection-start-line="260" selection-start-column="151" selection-end-line="260" selection-end-column="151" />
               <folding>
-                <marker date="1570033189597" expanded="true" signature="6:137" ph="..." />
-                <marker date="1570033189597" expanded="true" signature="182:4995" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="458:561" ph="/* public AudioClip button1Clip; ... */" />
-                <marker date="1570033189597" expanded="true" signature="770:928" ph="/* DOES THE NPC NEED A PHYSICAL CASSETTE????? ... */" />
-                <marker date="1570033189597" expanded="true" signature="1027:1449" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="1301:1415" ph="/* NPCcassette1.SetActive(false); ... */" />
-                <marker date="1570033189597" expanded="true" signature="1507:1742" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="1766:1861" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="1906:4001" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="1922:2026" ph="/* Make cassette Sprite enabled,Change color Per Button ... */" />
-                <marker date="1570033189597" expanded="true" signature="2057:2286" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="2317:2580" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="2611:2819" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="2854:2884" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="2898:3573" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
-                <marker date="1570033189597" expanded="true" signature="3599:3917" ph="/* If Player Collides into button3 ... */" />
-                <marker date="1570033189597" expanded="true" signature="3928:3995" ph="/* If Player Collides into Npc ... */" />
-                <marker date="1570033189597" expanded="true" signature="4026:4717" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="4064:4453" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="4337:4443" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
-                <marker date="1570033189597" expanded="true" signature="4495:4702" ph="{...}" />
-                <marker date="1570033189597" expanded="true" signature="4578:4692" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
-                <marker date="1570033189597" expanded="true" signature="4758:4993" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6:172" ph="..." />
+                <marker date="1570979015338" expanded="true" signature="217:7455" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="935:1093" ph="/* DOES THE NPC NEED A PHYSICAL CASSETTE????? ... */" />
+                <marker date="1570979015338" expanded="true" signature="1192:1721" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="1466:1580" ph="/* NPCcassette1.SetActive(false); ... */" />
+                <marker date="1570979015338" expanded="true" signature="1779:2014" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="2038:2133" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="2178:4504" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="2194:2298" ph="/* Make cassette Sprite enabled,Change color Per Button ... */" />
+                <marker date="1570979015338" expanded="true" signature="2329:2642" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="2673:3013" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="3044:3322" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="3357:3387" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="3401:4076" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
+                <marker date="1570979015338" expanded="true" signature="4102:4420" ph="/* If Player Collides into button3 ... */" />
+                <marker date="1570979015338" expanded="true" signature="4431:4498" ph="/* If Player Collides into Npc ... */" />
+                <marker date="1570979015338" expanded="true" signature="4529:6052" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="4568:4775" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="4651:4765" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
+                <marker date="1570979015338" expanded="true" signature="4816:6019" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="5019:5297" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="5326:5612" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="5641:5869" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="5895:6009" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
+                <marker date="1570979015338" expanded="true" signature="6093:6358" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6398:6598" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6436:6493" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6525:6583" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6638:6840" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6677:6734" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6767:6825" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6882:7088" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="6923:6980" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="7015:7073" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="7114:7447" ph="{...}" />
+                <marker date="1570979015338" expanded="true" signature="7315:7441" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -53,6 +72,7 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Temp/Compiled-UI-Default.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/PlayerControls.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -67,7 +87,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="107" />
+    <option name="x" value="162" />
     <option name="y" value="23" />
     <option name="width" value="1145" />
     <option name="height" value="801" />
@@ -78,7 +98,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -87,6 +106,7 @@
         <option name="show-project-names" value="true" />
       </pane>
       <pane id="FileSystemExplorer" />
+      <pane id="AssemblyExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -137,11 +157,12 @@
       <updated>1569423474261</updated>
       <workItem from="1569423477071" duration="1790000" />
       <workItem from="1569426738156" duration="9929000" />
+      <workItem from="1570461212152" duration="4338000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11719000" />
+    <option name="totallyTimeSpent" value="16057000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -153,9 +174,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="107" y="23" width="1145" height="801" extended-state="0" />
+    <frame x="162" y="23" width="1145" height="801" extended-state="1" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32094288" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3263826" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -198,62 +220,66 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/candle.cs">
+    <entry file="file://$PROJECT_DIR$/Assets/candle.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaycastGrounded.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaycastTest.cs" />
+    <entry file="file://$PROJECT_DIR$/Assets/RaycastMouse1.cs" />
+    <entry file="file://$PROJECT_DIR$/Temp/Compiled-UI-Default.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaycastGrounded.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="18" column="27" selection-start-line="18" selection-start-column="27" selection-end-line="18" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaycastTest.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="55" selection-start-line="11" selection-start-column="55" selection-end-line="11" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/RaycastMouse1.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="896">
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
+        <state relative-caret-position="-15586">
+          <folding>
+            <marker date="1570635469164" expanded="true" signature="0:419" ph="/* Compiled shader for PC, Mac &amp; Linux Standalone ... */" />
+            <marker date="1570635469164" expanded="true" signature="454:987" ph="{...}" />
+            <marker date="1570635469164" expanded="true" signature="1356:1487" ph="{...}" />
+            <marker date="1570635469164" expanded="true" signature="1549:1786" ph="/* Compiled programs ... */" />
+            <marker date="1570635469164" expanded="true" signature="8004:8117" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1570635469164" expanded="true" signature="14776:14889" ph="/* All GLSL source is contained within the vertex program ... */" />
+            <marker date="1570635469164" expanded="true" signature="22115:22228" ph="/* All GLSL source is contained within the vertex program ... */" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/PlayerControls.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="337">
-          <caret line="165" column="3" lean-forward="true" selection-start-line="165" selection-start-column="3" selection-end-line="165" selection-end-column="3" />
+        <state relative-caret-position="261">
+          <caret line="260" column="151" selection-start-line="260" selection-start-column="151" selection-end-line="260" selection-end-column="151" />
           <folding>
-            <marker date="1570033189597" expanded="true" signature="6:137" ph="..." />
-            <marker date="1570033189597" expanded="true" signature="182:4995" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="458:561" ph="/* public AudioClip button1Clip; ... */" />
-            <marker date="1570033189597" expanded="true" signature="770:928" ph="/* DOES THE NPC NEED A PHYSICAL CASSETTE????? ... */" />
-            <marker date="1570033189597" expanded="true" signature="1027:1449" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="1301:1415" ph="/* NPCcassette1.SetActive(false); ... */" />
-            <marker date="1570033189597" expanded="true" signature="1507:1742" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="1766:1861" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="1906:4001" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="1922:2026" ph="/* Make cassette Sprite enabled,Change color Per Button ... */" />
-            <marker date="1570033189597" expanded="true" signature="2057:2286" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="2317:2580" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="2611:2819" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="2854:2884" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="2898:3573" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
-            <marker date="1570033189597" expanded="true" signature="3599:3917" ph="/* If Player Collides into button3 ... */" />
-            <marker date="1570033189597" expanded="true" signature="3928:3995" ph="/* If Player Collides into Npc ... */" />
-            <marker date="1570033189597" expanded="true" signature="4026:4717" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="4064:4453" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="4337:4443" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
-            <marker date="1570033189597" expanded="true" signature="4495:4702" ph="{...}" />
-            <marker date="1570033189597" expanded="true" signature="4578:4692" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
-            <marker date="1570033189597" expanded="true" signature="4758:4993" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6:172" ph="..." />
+            <marker date="1570979015338" expanded="true" signature="217:7455" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="935:1093" ph="/* DOES THE NPC NEED A PHYSICAL CASSETTE????? ... */" />
+            <marker date="1570979015338" expanded="true" signature="1192:1721" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="1466:1580" ph="/* NPCcassette1.SetActive(false); ... */" />
+            <marker date="1570979015338" expanded="true" signature="1779:2014" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="2038:2133" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="2178:4504" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="2194:2298" ph="/* Make cassette Sprite enabled,Change color Per Button ... */" />
+            <marker date="1570979015338" expanded="true" signature="2329:2642" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="2673:3013" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="3044:3322" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="3357:3387" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="3401:4076" ph="/* If Player Collides into button1 and hasn't collided into a button yet ... */" />
+            <marker date="1570979015338" expanded="true" signature="4102:4420" ph="/* If Player Collides into button3 ... */" />
+            <marker date="1570979015338" expanded="true" signature="4431:4498" ph="/* If Player Collides into Npc ... */" />
+            <marker date="1570979015338" expanded="true" signature="4529:6052" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="4568:4775" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="4651:4765" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
+            <marker date="1570979015338" expanded="true" signature="4816:6019" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="5019:5297" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="5326:5612" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="5641:5869" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="5895:6009" ph="/* PLAY FINAL FANTASY VICTORY HORNS YOOOOOO ... */" />
+            <marker date="1570979015338" expanded="true" signature="6093:6358" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6398:6598" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6436:6493" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6525:6583" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6638:6840" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6677:6734" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6767:6825" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6882:7088" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="6923:6980" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="7015:7073" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="7114:7447" ph="{...}" />
+            <marker date="1570979015338" expanded="true" signature="7315:7441" ph="{...}" />
           </folding>
         </state>
       </provider>
