@@ -1,16 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06cdfc9f-b0eb-4ee3-aaac-f7ec01872fe0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.IntermediateGameDevMidterm(1)/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/AcheievementUnlocked_AllText.rtf" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/AcheievementUnlocked_AllText.rtf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Button1Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Button1Color.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Button2Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Button2Color.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/Button3Color.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/Button3Color.mat" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/PlayerControls.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/PlayerControls.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/SADNESSYEE.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF.asset" afterDir="false" />
-    </list>
+    <list default="true" id="06cdfc9f-b0eb-4ee3-aaac-f7ec01872fe0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,12 +148,12 @@
       <updated>1569423474261</updated>
       <workItem from="1569423477071" duration="1790000" />
       <workItem from="1569426738156" duration="9929000" />
-      <workItem from="1570461212152" duration="4338000" />
+      <workItem from="1570461212152" duration="4910000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16057000" />
+    <option name="totallyTimeSpent" value="16629000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
