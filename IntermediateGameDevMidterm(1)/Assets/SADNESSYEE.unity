@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
   m_LightingDataAsset: {fileID: 0}
-  m_UseShadowmask: 1
+  m_UseShadowmask: 0
 --- !u!196 &4
 NavMeshSettings:
   serializedVersion: 2
@@ -2761,7 +2761,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f648480df3530497eb9bcad8eb512507, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 3
+  moveSpeed: 4
   inputVector: {x: 0, y: 0, z: 0}
   thisRigidbody: {fileID: 2143445656}
   button1: {fileID: 818334731}
@@ -2773,6 +2773,10 @@ MonoBehaviour:
   button3Clip: {fileID: 8300000, guid: 02991bcec8c72481fb793e7db6e73c04, type: 3}
   OnNPCaudio: {fileID: 8300000, guid: 02991bcec8c72481fb793e7db6e73c04, type: 3}
   hasCassette: 0
+  Trials: 0
+  XLcollide: 0
+  iDKcollide: 0
+  Questcollide: 0
   cassette1: {fileID: 1235465281}
   cassette2: {fileID: 1359507105}
   cassette3: {fileID: 391519456}
