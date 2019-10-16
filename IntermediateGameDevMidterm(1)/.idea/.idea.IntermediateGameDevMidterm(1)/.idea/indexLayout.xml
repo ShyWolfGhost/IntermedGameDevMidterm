@@ -21,8 +21,10 @@
     </explicitIncludes>
     <explicitExcludes>
       <Path>.idea</Path>
+      <Path>DEMO MIDTERM BUILD</Path>
       <Path>Library</Path>
       <Path>Logs</Path>
+      <Path>PCDEMO</Path>
       <Path>Temp</Path>
       <Path>obj</Path>
     </explicitExcludes>

@@ -12,9 +12,9 @@ public class PlayerControls : MonoBehaviour
     public float moveSpeed = 3f;
     public Vector3 inputVector;
     public Rigidbody thisRigidbody;
-    
-    
-   
+
+
+    public AudioClip Distortedbumble;
 
     public GameObject button1;
     public GameObject button2;
@@ -45,6 +45,7 @@ public class PlayerControls : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        Source.Play();
         thisRigidbody = GetComponent<Rigidbody>(); 
         button1.SetActive(true);
         button2.SetActive(true);
@@ -85,6 +86,7 @@ public class PlayerControls : MonoBehaviour
     //Text, Think of when you want them to appear
     if (other.name=="button1")
     {
+        
         
         Source.PlayOneShot(button1Clip);
         Debug.Log("BUTTON 1 FRIENDS");
@@ -258,11 +260,11 @@ public class PlayerControls : MonoBehaviour
     }
     public void FuckYOU()
     {
-        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NO ONE CARES ABOUT YOUR INTERSTS!!! MAYBE THIS TIME WILL BE DIFFERENT??? PRESS SPACE TO FIND OUT!!!";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NO ONE CARES ABOUT YOUR INTERSTS!!! MAYBE NEXT TIME WILL BE DIFFERENT??? PRESS SPACE TO FIND OUT!!!";
         if (Input.GetKey(KeyCode.Space))
         {
             
-            SceneManager.LoadScene("SADNESSYEE");
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex) ;
             Debug.Log("Mischeif Managed");
         }
     }
