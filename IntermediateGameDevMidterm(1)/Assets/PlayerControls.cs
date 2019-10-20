@@ -63,7 +63,7 @@ public class PlayerControls : MonoBehaviour
         //NPCcassette1.SetActive(false);
         //NPCcassette2.SetActive(false);
         //NPCcassette3.SetActive(false);
-        Meshy.text = "ACHIEVEMENT UNLOCKED: WELCOME TO THE WORLD, STARS ARE JUST STARS AND THAT’S IT. GO ACQUIRE MORE KNOWLEDGE!!!";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: WELCOME TO THE WORLD, STARS ARE JUST STARS AND THAT’S IT./n GO ACQUIRE MORE KNOWLEDGE!!!";
 
 
     }
@@ -106,7 +106,7 @@ public class PlayerControls : MonoBehaviour
         Debug.Log("BUTTON 1 FRIENDS");
         XLcollide = true;
         cassette1.SetActive(true);
-        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED FRIENDS BY TWIN XL. GO SHARE IT WITH THE MASSES!!!";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED FRIENDS BY TWIN XL./nGO SHARE IT WITH THE MASSES!!!";
         blue.SetActive(true);
         
         CassetteTurnsTrue();
@@ -117,7 +117,7 @@ public class PlayerControls : MonoBehaviour
         Source.PlayOneShot(button2Clip);
         Debug.Log("BUTTON 2 BLEED MAGIC");
         iDKcollide = true;
-        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED BLEED MAGIC BY I DONT KNOW HOW BUT THEY FOUND ME. GO SHARE IT WITH THE MASSES!!!";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED BLEED MAGIC BY i DONT KNOW HOW BUT THEY FOUND ME.\n GO SHARE IT WITH THE MASSES!!!";
         cassette2.SetActive(true);
         
         CassetteTurnsTrue();
@@ -129,7 +129,7 @@ public class PlayerControls : MonoBehaviour
         Debug.Log("BUTTON 3 ????");
         Questcollide = true;
         cassette3.SetActive(true);
-        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED SOUNDCHECK BY CATFISH AND THE BOTTLEMEN. GO SHARE IT WITH THE MASSES!!!";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED SOUNDCHECK BY CATFISH AND THE BOTTLEMEN.\n GO SHARE IT WITH THE MASSES!!!";
         yellow.SetActive(true);
         CassetteTurnsTrue();
         
@@ -275,7 +275,7 @@ public class PlayerControls : MonoBehaviour
     }
     public void FuckYOU()
     {
-        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NO ONE CARES ABOUT YOUR INTERSTS!!! MAYBE NEXT TIME WILL BE DIFFERENT??? PRESS SPACE TO FIND OUT!!!";
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NO ONE CARES ABOUT YOUR INTERSTS!!!\n MAYBE NEXT TIME WILL BE DIFFERENT??? PRESS SPACE TO FIND OUT!!!";
         Debug.Log("Mischeif Managed");
         ENDING = true;
         
