@@ -8,6 +8,9 @@ using UnityEngine.UI;
 
 public class PlayerControls : MonoBehaviour
 {
+    public GameObject blue;
+    public GameObject yellow;
+    
     //Player Motion Controls
     public float moveSpeed = 3f;
     public Vector3 inputVector;
@@ -34,7 +37,9 @@ public class PlayerControls : MonoBehaviour
     public GameObject cassette1;
     public GameObject cassette2;
     public GameObject cassette3;
-    
+
+
+    public bool ENDING = false;
     //DOES THE NPC NEED A PHYSICAL CASSETTE?????
     //public GameObject NPCcassette1;
     //public GameObject NPCcassette2;
@@ -46,6 +51,8 @@ public class PlayerControls : MonoBehaviour
     void Start()
     {
         Source.Play();
+        blue.SetActive(false);
+        yellow.SetActive(false);
         thisRigidbody = GetComponent<Rigidbody>(); 
         button1.SetActive(true);
         button2.SetActive(true);
@@ -68,6 +75,13 @@ public class PlayerControls : MonoBehaviour
         float vertical = Input.GetAxis("Vertical");
         inputVector = transform.forward * vertical;
         inputVector += transform.right * horizontal;
+        
+        if (ENDING==true&&Input.GetKey(KeyCode.Space))
+        {
+            int index = SceneManager.GetActiveScene().buildIndex;
+            SceneManager.LoadScene(index) ;
+            Debug.Log("Mischeif Managed input done");
+        }
         
 
     }
@@ -93,7 +107,8 @@ public class PlayerControls : MonoBehaviour
         XLcollide = true;
         cassette1.SetActive(true);
         Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED FRIENDS BY TWIN XL. GO SHARE IT WITH THE MASSES!!!";
-       
+        blue.SetActive(true);
+        
         CassetteTurnsTrue();
         
     }
@@ -114,13 +129,13 @@ public class PlayerControls : MonoBehaviour
         Debug.Log("BUTTON 3 ????");
         Questcollide = true;
         cassette3.SetActive(true);
-        Meshy.text = "Achievement Unlocked: Learned Button 3 Still Has no song!!!!!";
-
+        Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED SOUNDCHECK BY CATFISH AND THE BOTTLEMEN. GO SHARE IT WITH THE MASSES!!!";
+        yellow.SetActive(true);
         CassetteTurnsTrue();
         
     }
     
-    if (other.name=="Sphere")
+    if (other.name=="Npc1")
     {
         OnNPC();
 
@@ -261,12 +276,9 @@ public class PlayerControls : MonoBehaviour
     public void FuckYOU()
     {
         Meshy.text = "ACHIEVEMENT UNLOCKED: LEARNED NO ONE CARES ABOUT YOUR INTERSTS!!! MAYBE NEXT TIME WILL BE DIFFERENT??? PRESS SPACE TO FIND OUT!!!";
-        if (Input.GetKey(KeyCode.Space))
-        {
-            
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex) ;
-            Debug.Log("Mischeif Managed");
-        }
+        Debug.Log("Mischeif Managed");
+        ENDING = true;
+        
     }
     
 
